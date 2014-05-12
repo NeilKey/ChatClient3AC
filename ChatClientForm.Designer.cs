@@ -35,13 +35,13 @@
             this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.listOnlineUser = new System.Windows.Forms.ListView();
+            this.onlineUsers = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.chatBrowser = new System.Windows.Forms.WebBrowser();
             this.splitContainer3 = new System.Windows.Forms.SplitContainer();
             this.chatBox = new System.Windows.Forms.RichTextBox();
-            this.emoBox = new System.Windows.Forms.PictureBox();
             this.sendButton = new System.Windows.Forms.Button();
-            this.onlineUsers = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.emoBox = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -117,6 +117,11 @@
             this.listOnlineUser.UseCompatibleStateImageBehavior = false;
             this.listOnlineUser.View = System.Windows.Forms.View.Details;
             // 
+            // onlineUsers
+            // 
+            this.onlineUsers.Text = "Online Users";
+            this.onlineUsers.Width = 1000;
+            // 
             // splitContainer2
             // 
             this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -173,6 +178,16 @@
             this.chatBox.TabIndex = 0;
             this.chatBox.Text = "";
             // 
+            // sendButton
+            // 
+            this.sendButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.sendButton.Location = new System.Drawing.Point(0, 47);
+            this.sendButton.Name = "sendButton";
+            this.sendButton.Size = new System.Drawing.Size(69, 23);
+            this.sendButton.TabIndex = 0;
+            this.sendButton.Text = "Send";
+            this.sendButton.UseVisualStyleBackColor = true;
+            // 
             // emoBox
             // 
             this.emoBox.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -186,22 +201,7 @@
             this.emoBox.TabStop = false;
             this.emoBox.Click += new System.EventHandler(this.emoBox_Click);
             // 
-            // sendButton
-            // 
-            this.sendButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.sendButton.Location = new System.Drawing.Point(0, 47);
-            this.sendButton.Name = "sendButton";
-            this.sendButton.Size = new System.Drawing.Size(69, 23);
-            this.sendButton.TabIndex = 0;
-            this.sendButton.Text = "Send";
-            this.sendButton.UseVisualStyleBackColor = true;
-            // 
-            // onlineUsers
-            // 
-            this.onlineUsers.Text = "Online Users";
-            this.onlineUsers.Width = 1000;
-            // 
-            // MainForm
+            // ChatClientForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -211,8 +211,8 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.MinimumSize = new System.Drawing.Size(250, 200);
-            this.Name = "MainForm";
-            this.Text = "Form1";
+            this.Name = "ChatClientForm";
+            this.Text = "Chat Client";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.splitContainer1.Panel1.ResumeLayout(false);
