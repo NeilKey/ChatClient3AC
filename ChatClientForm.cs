@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
 namespace ChatClient3AC
@@ -13,8 +8,20 @@ namespace ChatClient3AC
     {
         public ChatClientForm()
         {
-            // Comment
             InitializeComponent();
+        }
+
+        private void emoBox_Click(object sender, EventArgs e)
+        {
+            EmoticonBox emoticonBox = new EmoticonBox();
+
+            emoticonBox.Deactivate += delegate
+            {
+                emoticonBox.Close();
+            };
+
+            emoticonBox.Location = new Point(sendButton.Location.X, sendButton.Location.Y);
+            emoticonBox.Show();
         }
     }
 }
