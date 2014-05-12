@@ -23,5 +23,11 @@ namespace ChatClient3AC
             emoticonBox.Location = new Point(sendButton.Location.X, sendButton.Location.Y);
             emoticonBox.Show();
         }
+
+        private void settingsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SettingsForm settingsForm = new SettingsForm();
+            settingsForm.ShowDialog();
+        }
     }
 }
