@@ -33,15 +33,15 @@
             this.chatBrowser = new System.Windows.Forms.WebBrowser();
             this.splitContainer3 = new System.Windows.Forms.SplitContainer();
             this.chatBox = new System.Windows.Forms.RichTextBox();
+            this.emoBox = new System.Windows.Forms.PictureBox();
             this.sendButton = new System.Windows.Forms.Button();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.listOnlineUser = new System.Windows.Forms.ListView();
+            this.onlineUsers = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.loginToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newAccountToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.listOnlineUser = new System.Windows.Forms.ListView();
-            this.onlineUsers = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.emoBox = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
             this.splitContainer2.Panel1.SuspendLayout();
             this.splitContainer2.Panel2.SuspendLayout();
@@ -50,12 +50,12 @@
             this.splitContainer3.Panel1.SuspendLayout();
             this.splitContainer3.Panel2.SuspendLayout();
             this.splitContainer3.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.emoBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.emoBox)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // splitContainer2
@@ -65,13 +65,12 @@
             // 
             // splitContainer2.Panel1
             // 
-            resources.ApplyResources(this.splitContainer2.Panel1, "splitContainer2.Panel1");
             this.splitContainer2.Panel1.Controls.Add(this.chatBrowser);
             // 
             // splitContainer2.Panel2
             // 
-            resources.ApplyResources(this.splitContainer2.Panel2, "splitContainer2.Panel2");
             this.splitContainer2.Panel2.Controls.Add(this.splitContainer3);
+            resources.ApplyResources(this.splitContainer2.Panel2, "splitContainer2.Panel2");
             // 
             // chatBrowser
             // 
@@ -85,12 +84,10 @@
             // 
             // splitContainer3.Panel1
             // 
-            resources.ApplyResources(this.splitContainer3.Panel1, "splitContainer3.Panel1");
             this.splitContainer3.Panel1.Controls.Add(this.chatBox);
             // 
             // splitContainer3.Panel2
             // 
-            resources.ApplyResources(this.splitContainer3.Panel2, "splitContainer3.Panel2");
             this.splitContainer3.Panel2.Controls.Add(this.emoBox);
             this.splitContainer3.Panel2.Controls.Add(this.sendButton);
             // 
@@ -98,65 +95,6 @@
             // 
             resources.ApplyResources(this.chatBox, "chatBox");
             this.chatBox.Name = "chatBox";
-            // 
-            // sendButton
-            // 
-            resources.ApplyResources(this.sendButton, "sendButton");
-            this.sendButton.Name = "sendButton";
-            this.sendButton.UseVisualStyleBackColor = true;
-            // 
-            // menuStrip1
-            // 
-            resources.ApplyResources(this.menuStrip1, "menuStrip1");
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.loginToolStripMenuItem,
-            this.newAccountToolStripMenuItem,
-            this.settingsToolStripMenuItem});
-            this.menuStrip1.Name = "menuStrip1";
-            // 
-            // loginToolStripMenuItem
-            // 
-            resources.ApplyResources(this.loginToolStripMenuItem, "loginToolStripMenuItem");
-            this.loginToolStripMenuItem.Name = "loginToolStripMenuItem";
-            // 
-            // newAccountToolStripMenuItem
-            // 
-            resources.ApplyResources(this.newAccountToolStripMenuItem, "newAccountToolStripMenuItem");
-            this.newAccountToolStripMenuItem.Name = "newAccountToolStripMenuItem";
-            // 
-            // settingsToolStripMenuItem
-            // 
-            resources.ApplyResources(this.settingsToolStripMenuItem, "settingsToolStripMenuItem");
-            this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            this.settingsToolStripMenuItem.Click += new System.EventHandler(this.settingsToolStripMenuItem_Click);
-            // 
-            // splitContainer1
-            // 
-            resources.ApplyResources(this.splitContainer1, "splitContainer1");
-            this.splitContainer1.Name = "splitContainer1";
-            // 
-            // splitContainer1.Panel1
-            // 
-            resources.ApplyResources(this.splitContainer1.Panel1, "splitContainer1.Panel1");
-            this.splitContainer1.Panel1.Controls.Add(this.listOnlineUser);
-            // 
-            // splitContainer1.Panel2
-            // 
-            resources.ApplyResources(this.splitContainer1.Panel2, "splitContainer1.Panel2");
-            this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
-            // 
-            // listOnlineUser
-            // 
-            resources.ApplyResources(this.listOnlineUser, "listOnlineUser");
-            this.listOnlineUser.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.onlineUsers});
-            this.listOnlineUser.Name = "listOnlineUser";
-            this.listOnlineUser.UseCompatibleStateImageBehavior = false;
-            this.listOnlineUser.View = System.Windows.Forms.View.Details;
-            // 
-            // onlineUsers
-            // 
-            resources.ApplyResources(this.onlineUsers, "onlineUsers");
             // 
             // emoBox
             // 
@@ -166,6 +104,65 @@
             this.emoBox.Name = "emoBox";
             this.emoBox.TabStop = false;
             this.emoBox.Click += new System.EventHandler(this.emoBox_Click);
+            // 
+            // sendButton
+            // 
+            resources.ApplyResources(this.sendButton, "sendButton");
+            this.sendButton.Name = "sendButton";
+            this.sendButton.UseVisualStyleBackColor = true;
+            // 
+            // splitContainer1
+            // 
+            resources.ApplyResources(this.splitContainer1, "splitContainer1");
+            this.splitContainer1.Name = "splitContainer1";
+            // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.Controls.Add(this.listOnlineUser);
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
+            // 
+            // listOnlineUser
+            // 
+            this.listOnlineUser.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.onlineUsers});
+            resources.ApplyResources(this.listOnlineUser, "listOnlineUser");
+            this.listOnlineUser.Name = "listOnlineUser";
+            this.listOnlineUser.UseCompatibleStateImageBehavior = false;
+            this.listOnlineUser.View = System.Windows.Forms.View.Details;
+            // 
+            // onlineUsers
+            // 
+            resources.ApplyResources(this.onlineUsers, "onlineUsers");
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.loginToolStripMenuItem,
+            this.newAccountToolStripMenuItem,
+            this.settingsToolStripMenuItem});
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
+            this.menuStrip1.Name = "menuStrip1";
+            // 
+            // loginToolStripMenuItem
+            // 
+            this.loginToolStripMenuItem.Name = "loginToolStripMenuItem";
+            resources.ApplyResources(this.loginToolStripMenuItem, "loginToolStripMenuItem");
+            this.loginToolStripMenuItem.Click += new System.EventHandler(this.loginToolStripMenuItem_Click);
+            // 
+            // newAccountToolStripMenuItem
+            // 
+            this.newAccountToolStripMenuItem.Name = "newAccountToolStripMenuItem";
+            resources.ApplyResources(this.newAccountToolStripMenuItem, "newAccountToolStripMenuItem");
+            this.newAccountToolStripMenuItem.Click += new System.EventHandler(this.newAccountToolStripMenuItem_Click);
+            // 
+            // settingsToolStripMenuItem
+            // 
+            this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
+            resources.ApplyResources(this.settingsToolStripMenuItem, "settingsToolStripMenuItem");
+            this.settingsToolStripMenuItem.Click += new System.EventHandler(this.settingsToolStripMenuItem_Click);
             // 
             // ChatClientForm
             // 
@@ -183,13 +180,13 @@
             this.splitContainer3.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).EndInit();
             this.splitContainer3.ResumeLayout(false);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.emoBox)).EndInit();
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.emoBox)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

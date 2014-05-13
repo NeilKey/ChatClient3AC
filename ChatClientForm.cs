@@ -29,5 +29,17 @@ namespace ChatClient3AC
             SettingsForm settingsForm = new SettingsForm();
             settingsForm.ShowDialog();
         }
+
+        private void loginToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoginForm loginForm = new LoginForm();
+            loginForm.ShowDialog();
+        }
+
+        private void newAccountToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            NewAccountForm newAccountForm = new NewAccountForm();
+            newAccountForm.ShowDialog();
+        }
     }
 }
