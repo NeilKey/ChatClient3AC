@@ -131,6 +131,15 @@ namespace ChatClient3AC.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream incomingMsg {
+            get {
+                return ResourceManager.GetStream("incomingMsg", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap inlove {
@@ -217,6 +226,24 @@ namespace ChatClient3AC.Properties {
             get {
                 object obj = ResourceManager.GetObject("tongueout", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream usrEnter {
+            get {
+                return ResourceManager.GetStream("usrEnter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream usrLeave {
+            get {
+                return ResourceManager.GetStream("usrLeave", resourceCulture);
             }
         }
         
