@@ -1,37 +1,33 @@
 ﻿using System;
+using System.ComponentModel;
+using System.Globalization;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace ChatClient3AC
 {
     public partial class SettingsForm : Form
     {
+        private String hostName;
+        private int hostPort;
+        private String culture = "";
+        private String culture_temp = "";
+
         public SettingsForm()
         {
             InitializeComponent();
+            culture = CultureInfo.CurrentCulture.Name;
+            cB_Language.SelectedIndex = 0;
         }
 
-        private void tB_Out_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tB_In_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tB_Mex_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void b_Cancel_Click(object sender, EventArgs e)
         {
+            foreach (Control c in this.Controls)
+            {
+                ComponentResourceManager resources = new ComponentResourceManager(typeof(SettingsForm));
+                resources.ApplyResources(c, c.Name, new CultureInfo(culture));
+            }
             Close();
         }
 
@@ -142,11 +138,6 @@ namespace ChatClient3AC
             }
         }
 
-        private void gB_Language_Enter(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             ColorDialog MyDialog = new ColorDialog();
@@ -164,12 +155,24 @@ namespace ChatClient3AC
 
         private void cB_Language_SelectedIndexChanged(object sender, EventArgs e)
         {
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
+            if(cB_Language.SelectedItem.ToString() == "English") 
+            {
+                foreach (Control c in this.Controls)
+                {
+                    ComponentResourceManager resources = new ComponentResourceManager(typeof(SettingsForm));
+                    resources.ApplyResources(c, c.Name, new CultureInfo("en"));
+                }
+                culture_temp = CultureInfo.CurrentCulture.Name;
+            }
+            else if (cB_Language.SelectedItem.ToString() == "Italiano")
+            {
+                foreach (Control c in this.Controls)
+                {
+                    ComponentResourceManager resources = new ComponentResourceManager(typeof(SettingsForm));
+                    resources.ApplyResources(c, c.Name, new CultureInfo("it"));
+                }
+                culture_temp = CultureInfo.CurrentCulture.Name;
+            }
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -202,6 +205,34 @@ namespace ChatClient3AC
                 l_out_mex.BackColor = MyDialog.Color;
             }
             MyDialog.Reset();
+        }
+
+        private void b_Save_Click(object sender, EventArgs e)
+        {
+            foreach (Control c in this.Controls)
+            {
+                ComponentResourceManager resources = new ComponentResourceManager(typeof(ChatClientForm));
+                resources.ApplyResources(c, c.Name, new CultureInfo(culture_temp));
+            }
+
+            hostName = tB_HostName.Text;
+            try
+            {
+                hostPort = int.Parse(tB_HostPort.Text);
+            }
+            catch (Exception) { }
+
+            Close();
+        }
+
+        protected String getHostName()
+        {
+            return hostName;
+        }
+
+        protected int getHostPort()
+        {
+            return hostPort;
         }
     }
 }

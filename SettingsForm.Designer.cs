@@ -142,13 +142,17 @@
             resources.ApplyResources(this.gB_Language, "gB_Language");
             this.gB_Language.Name = "gB_Language";
             this.gB_Language.TabStop = false;
-            this.gB_Language.Enter += new System.EventHandler(this.gB_Language_Enter);
             // 
             // cB_Language
             // 
+            this.cB_Language.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cB_Language.FormattingEnabled = true;
+            this.cB_Language.Items.AddRange(new object[] {
+            resources.GetString("cB_Language.Items"),
+            resources.GetString("cB_Language.Items1")});
             resources.ApplyResources(this.cB_Language, "cB_Language");
             this.cB_Language.Name = "cB_Language";
+            this.cB_Language.Sorted = true;
             this.cB_Language.SelectedIndexChanged += new System.EventHandler(this.cB_Language_SelectedIndexChanged);
             // 
             // gB_Host
@@ -249,13 +253,13 @@
             // 
             resources.ApplyResources(this.label9, "label9");
             this.label9.Name = "label9";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // b_Save
             // 
             resources.ApplyResources(this.b_Save, "b_Save");
             this.b_Save.Name = "b_Save";
             this.b_Save.UseVisualStyleBackColor = true;
+            this.b_Save.Click += new System.EventHandler(this.b_Save_Click);
             // 
             // b_Cancel
             // 
