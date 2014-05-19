@@ -10,8 +10,8 @@ namespace ChatClient3AC
     {
         private String hostName;
         private int hostPort;
-        private String culture = "en";
-        private String culture_temp = "en";
+        private String culture = "it";
+        private String culture_temp = "it";
 
         private System.Drawing.Color inColor;
         private System.Drawing.Color outColor;

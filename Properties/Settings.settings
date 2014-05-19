@@ -21,10 +21,10 @@
       <Value Profile="(Default)">0</Value>
     </Setting>
     <Setting Name="language" Type="System.String" Scope="User">
-      <Value Profile="(Default)">en</Value>
+      <Value Profile="(Default)">it</Value>
     </Setting>
     <Setting Name="languageIndex" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">0</Value>
+      <Value Profile="(Default)">1</Value>
     </Setting>
     <Setting Name="colorInput" Type="System.Drawing.Color" Scope="User">
       <Value Profile="(Default)" />
