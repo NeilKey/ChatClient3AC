@@ -118,5 +118,107 @@ namespace ChatClient3AC.Properties {
                 this["languageIndex"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::System.Drawing.Color colorInput {
+            get {
+                return ((global::System.Drawing.Color)(this["colorInput"]));
+            }
+            set {
+                this["colorInput"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::System.Drawing.Color colorOutput {
+            get {
+                return ((global::System.Drawing.Color)(this["colorOutput"]));
+            }
+            set {
+                this["colorOutput"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::System.Drawing.Color colorMex {
+            get {
+                return ((global::System.Drawing.Color)(this["colorMex"]));
+            }
+            set {
+                this["colorMex"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::System.Drawing.Color fontColorIn {
+            get {
+                return ((global::System.Drawing.Color)(this["fontColorIn"]));
+            }
+            set {
+                this["fontColorIn"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::System.Drawing.Color fontColorOut {
+            get {
+                return ((global::System.Drawing.Color)(this["fontColorOut"]));
+            }
+            set {
+                this["fontColorOut"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::System.Drawing.Color fontColorMex {
+            get {
+                return ((global::System.Drawing.Color)(this["fontColorMex"]));
+            }
+            set {
+                this["fontColorMex"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Arial, 13pt")]
+        public global::System.Drawing.Font fontIn {
+            get {
+                return ((global::System.Drawing.Font)(this["fontIn"]));
+            }
+            set {
+                this["fontIn"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Arial, 13pt")]
+        public global::System.Drawing.Font fontOut {
+            get {
+                return ((global::System.Drawing.Font)(this["fontOut"]));
+            }
+            set {
+                this["fontOut"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Arial, 13pt")]
+        public global::System.Drawing.Font fontMex {
+            get {
+                return ((global::System.Drawing.Font)(this["fontMex"]));
+            }
+            set {
+                this["fontMex"] = value;
+            }
+        }
     }
 }

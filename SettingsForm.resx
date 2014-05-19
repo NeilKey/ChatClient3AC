@@ -117,47 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="l_output.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="l_input.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="&gt;&gt;l_output.Name" xml:space="preserve">
-    <value>l_output</value>
-  </data>
-  <data name="&gt;&gt;l_output.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;l_output.Parent" xml:space="preserve">
-    <value>gB_Conversation</value>
-  </data>
-  <data name="&gt;&gt;l_output.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;l_input.Name" xml:space="preserve">
-    <value>l_input</value>
-  </data>
-  <data name="&gt;&gt;l_input.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;l_input.Parent" xml:space="preserve">
-    <value>gB_Conversation</value>
-  </data>
-  <data name="&gt;&gt;l_input.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
   </data>
   <data name="&gt;&gt;b_Out_Font.Name" xml:space="preserve">
     <value>b_Out_Font</value>
-  </data>
-  <data name="&gt;&gt;b_Out_Font.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;b_Out_Font.Parent" xml:space="preserve">
-    <value>gB_Conversation</value>
-  </data>
-  <data name="&gt;&gt;b_Out_Font.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="&gt;&gt;b_Out_Color.Name" xml:space="preserve">
     <value>b_Out_Color</value>
@@ -165,371 +130,154 @@
   <data name="&gt;&gt;b_Out_Color.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;b_Out_Color.Parent" xml:space="preserve">
-    <value>gB_Conversation</value>
-  </data>
-  <data name="&gt;&gt;b_Out_Color.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
-  </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>gB_Conversation</value>
-  </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;b_In_Font.Name" xml:space="preserve">
-    <value>b_In_Font</value>
-  </data>
-  <data name="&gt;&gt;b_In_Font.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;b_In_Font.Parent" xml:space="preserve">
-    <value>gB_Conversation</value>
-  </data>
-  <data name="&gt;&gt;b_In_Font.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;b_In_Color.Name" xml:space="preserve">
-    <value>b_In_Color</value>
-  </data>
-  <data name="&gt;&gt;b_In_Color.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;b_In_Color.Parent" xml:space="preserve">
-    <value>gB_Conversation</value>
-  </data>
-  <data name="&gt;&gt;b_In_Color.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>gB_Conversation</value>
-  </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="b_Mex_Color.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
   <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
-    <value>gB_Conversation</value>
+  <data name="&gt;&gt;b_Mex_Font.Parent" xml:space="preserve">
+    <value>gB_Outgoing</value>
   </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="gB_Conversation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
-  <data name="gB_Conversation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 214</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="gB_Conversation.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="gB_Conversation.Text" xml:space="preserve">
-    <value>Conversation Messages</value>
-  </data>
-  <data name="&gt;&gt;gB_Conversation.Name" xml:space="preserve">
-    <value>gB_Conversation</value>
-  </data>
-  <data name="&gt;&gt;gB_Conversation.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gB_Conversation.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;gB_Conversation.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <metadata name="l_output.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="l_output.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 13pt</value>
-  </data>
-  <data name="l_output.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 57</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="l_output.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="l_output.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 123</value>
-  </data>
-  <data name="l_output.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="l_output.Text" xml:space="preserve">
-    <value>Sample 123</value>
-  </data>
-  <data name="l_output.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;l_output.Name" xml:space="preserve">
-    <value>l_output</value>
-  </data>
-  <data name="&gt;&gt;l_output.Type" xml:space="preserve">
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;l_output.Parent" xml:space="preserve">
-    <value>gB_Conversation</value>
-  </data>
-  <data name="&gt;&gt;l_output.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="l_input.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="l_input.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 13pt</value>
-  </data>
-  <data name="l_input.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 57</value>
-  </data>
-  <data name="l_input.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="l_input.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 123</value>
-  </data>
-  <data name="l_input.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="l_input.Text" xml:space="preserve">
-    <value>Sample 123</value>
-  </data>
-  <data name="l_input.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;l_input.Name" xml:space="preserve">
-    <value>l_input</value>
-  </data>
-  <data name="&gt;&gt;l_input.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;l_input.Parent" xml:space="preserve">
-    <value>gB_Conversation</value>
-  </data>
-  <data name="&gt;&gt;l_input.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="b_Out_Font.Location" type="System.Drawing.Point, System.Drawing">
-    <value>345, 25</value>
-  </data>
-  <data name="b_Out_Font.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="b_Out_Font.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="b_Out_Font.Text" xml:space="preserve">
-    <value>Font</value>
-  </data>
-  <data name="&gt;&gt;b_Out_Font.Name" xml:space="preserve">
-    <value>b_Out_Font</value>
-  </data>
-  <data name="&gt;&gt;b_Out_Font.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;b_Out_Font.Parent" xml:space="preserve">
-    <value>gB_Conversation</value>
-  </data>
-  <data name="&gt;&gt;b_Out_Font.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="b_Out_Color.Location" type="System.Drawing.Point, System.Drawing">
-    <value>289, 25</value>
-  </data>
-  <data name="b_Out_Color.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 24</value>
-  </data>
-  <data name="b_Out_Color.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="b_Out_Color.Text" xml:space="preserve">
-    <value>Color</value>
-  </data>
-  <data name="&gt;&gt;b_Out_Color.Name" xml:space="preserve">
-    <value>b_Out_Color</value>
-  </data>
-  <data name="&gt;&gt;b_Out_Color.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;b_Out_Color.Parent" xml:space="preserve">
-    <value>gB_Conversation</value>
-  </data>
-  <data name="&gt;&gt;b_Out_Color.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 31</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 13</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Outgoing</value>
+  <data name="gB_Conversation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
   </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
+  <data name="&gt;&gt;b_color_conv.Parent" xml:space="preserve">
+    <value>gB_Background</value>
   </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;b_Mex_Color.Parent" xml:space="preserve">
+    <value>gB_Outgoing</value>
+  </data>
+  <data name="tB_HostName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 25</value>
+  </data>
+  <data name="gB_Outgoing.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;label4.Parent" xml:space="preserve">
     <value>gB_Conversation</value>
   </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="b_In_Font.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 25</value>
-  </data>
-  <data name="b_In_Font.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="b_In_Font.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="b_In_Font.Text" xml:space="preserve">
-    <value>Font</value>
-  </data>
-  <data name="&gt;&gt;b_In_Font.Name" xml:space="preserve">
-    <value>b_In_Font</value>
-  </data>
-  <data name="&gt;&gt;b_In_Font.Type" xml:space="preserve">
+  <data name="&gt;&gt;b_Mex_Color.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;b_In_Font.Parent" xml:space="preserve">
-    <value>gB_Conversation</value>
+  <data name="l_out_mex.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
-  <data name="&gt;&gt;b_In_Font.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="b_In_Color.Location" type="System.Drawing.Point, System.Drawing">
-    <value>88, 25</value>
-  </data>
-  <data name="b_In_Color.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 24</value>
-  </data>
-  <data name="b_In_Color.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="b_In_Color.Text" xml:space="preserve">
-    <value>Color</value>
-  </data>
-  <data name="&gt;&gt;b_In_Color.Name" xml:space="preserve">
-    <value>b_In_Color</value>
-  </data>
-  <data name="&gt;&gt;b_In_Color.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;b_In_Color.Parent" xml:space="preserve">
-    <value>gB_Conversation</value>
-  </data>
-  <data name="&gt;&gt;b_In_Color.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 31</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 13</value>
-  </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Incoming:</value>
-  </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>gB_Conversation</value>
-  </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 220</value>
-  </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 224</value>
+  <data name="&gt;&gt;b_color_outgoing.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>Conversation messages</value>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;b_color_conv.Name" xml:space="preserve">
+    <value>b_color_conv</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="b_Out_Font.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="gB_Outgoing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 221</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
     <value>gB_Conversation</value>
   </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="&gt;&gt;tB_HostPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <metadata name="cB_Language.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="cB_Language.Items" xml:space="preserve">
-    <value>English</value>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
   </data>
-  <data name="cB_Language.Items1" xml:space="preserve">
-    <value>Italiano</value>
+  <data name="&gt;&gt;b_Out_Font.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="cB_Language.Location" type="System.Drawing.Point, System.Drawing">
-    <value>33, 40</value>
+  <data name="b_Mex_Color.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 31</value>
   </data>
-  <data name="cB_Language.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 21</value>
+  <data name="&gt;&gt;b_Save.Name" xml:space="preserve">
+    <value>b_Save</value>
   </data>
-  <data name="cB_Language.TabIndex" type="System.Int32, mscorlib">
+  <data name="tB_HostName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 20</value>
+  </data>
+  <data name="l_output.Text" xml:space="preserve">
+    <value>Sample 123</value>
+  </data>
+  <data name="&gt;&gt;b_Mex_Font.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;l_output.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="&gt;&gt;tB_HostPort.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;l_input.Name" xml:space="preserve">
+    <value>l_input</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="b_In_Color.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 24</value>
+  </data>
+  <data name="b_Mex_Font.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 24</value>
+  </data>
+  <data name="gB_Conversation.Text" xml:space="preserve">
+    <value>Conversation Messages</value>
   </data>
   <data name="&gt;&gt;cB_Language.Name" xml:space="preserve">
     <value>cB_Language</value>
   </data>
-  <data name="&gt;&gt;cB_Language.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
-  <data name="&gt;&gt;cB_Language.Parent" xml:space="preserve">
-    <value>gB_Language</value>
+  <data name="&gt;&gt;gB_Host.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;l_out_mex.Parent" xml:space="preserve">
+    <value>gB_Outgoing</value>
+  </data>
+  <data name="&gt;&gt;b_Cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="b_In_Font.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 25</value>
+  </data>
+  <data name="&gt;&gt;gB_Conversation.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="b_Mex_Color.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 24</value>
+  </data>
+  <data name="l_out_mex.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;cB_Language.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -537,634 +285,625 @@
   <data name="gB_Language.Location" type="System.Drawing.Point, System.Drawing">
     <value>447, 12</value>
   </data>
-  <data name="gB_Language.Size" type="System.Drawing.Size, System.Drawing">
-    <value>282, 92</value>
-  </data>
-  <data name="gB_Language.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="gB_Language.Text" xml:space="preserve">
-    <value>Language</value>
-  </data>
-  <data name="&gt;&gt;gB_Language.Name" xml:space="preserve">
-    <value>gB_Language</value>
-  </data>
-  <data name="&gt;&gt;gB_Language.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;gB_Language.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;gB_Language.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="l_out_mex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 123</value>
   </data>
-  <data name="&gt;&gt;tB_HostPort.Name" xml:space="preserve">
-    <value>tB_HostPort</value>
+  <data name="l_out_mex.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
   </data>
-  <data name="&gt;&gt;tB_HostPort.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tB_HostPort.Parent" xml:space="preserve">
-    <value>gB_Host</value>
-  </data>
-  <data name="&gt;&gt;tB_HostPort.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tB_HostName.Name" xml:space="preserve">
-    <value>tB_HostName</value>
-  </data>
-  <data name="&gt;&gt;tB_HostName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tB_HostName.Parent" xml:space="preserve">
-    <value>gB_Host</value>
-  </data>
-  <data name="&gt;&gt;tB_HostName.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>gB_Host</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>gB_Host</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="gB_Host.Location" type="System.Drawing.Point, System.Drawing">
-    <value>447, 110</value>
+  <data name="&gt;&gt;gB_Language.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="gB_Host.Size" type="System.Drawing.Size, System.Drawing">
     <value>281, 116</value>
   </data>
-  <data name="gB_Host.TabIndex" type="System.Int32, mscorlib">
+  <data name="gB_Background.Text" xml:space="preserve">
+    <value>Background</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;gB_Conversation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Incoming:</value>
+  </data>
+  <data name="b_color_outgoing.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Text:</value>
+  </data>
+  <data name="b_Mex_Color.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="tB_HostPort.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="gB_Conversation.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gB_Conversation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>429, 214</value>
+  </data>
+  <data name="l_output.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 123</value>
+  </data>
+  <data name="l_input.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 123</value>
+  </data>
+  <data name="&gt;&gt;tB_HostPort.Name" xml:space="preserve">
+    <value>tB_HostPort</value>
+  </data>
+  <data name="&gt;&gt;gB_Outgoing.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>gB_Outgoing</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gB_Outgoing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="b_Mex_Font.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="b_In_Font.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 24</value>
+  </data>
+  <data name="&gt;&gt;b_Mex_Font.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="b_Mex_Font.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 31</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Background outgoing:</value>
+  </data>
+  <data name="l_output.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;gB_Background.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="gB_Host.Text" xml:space="preserve">
     <value>Host</value>
   </data>
-  <data name="&gt;&gt;gB_Host.Name" xml:space="preserve">
-    <value>gB_Host</value>
+  <data name="&gt;&gt;b_In_Color.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;gB_Host.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
   </data>
-  <data name="&gt;&gt;gB_Host.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;gB_Host.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="tB_HostPort.Location" type="System.Drawing.Point, System.Drawing">
-    <value>94, 68</value>
-  </data>
-  <data name="tB_HostPort.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 20</value>
-  </data>
-  <data name="tB_HostPort.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;tB_HostPort.Name" xml:space="preserve">
-    <value>tB_HostPort</value>
-  </data>
-  <data name="&gt;&gt;tB_HostPort.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tB_HostPort.Parent" xml:space="preserve">
-    <value>gB_Host</value>
-  </data>
-  <data name="&gt;&gt;tB_HostPort.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tB_HostName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>92, 25</value>
-  </data>
-  <data name="tB_HostName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 20</value>
-  </data>
-  <data name="tB_HostName.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;tB_HostName.Name" xml:space="preserve">
-    <value>tB_HostName</value>
-  </data>
-  <data name="&gt;&gt;tB_HostName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tB_HostName.Parent" xml:space="preserve">
-    <value>gB_Host</value>
-  </data>
-  <data name="&gt;&gt;tB_HostName.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;b_In_Font.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 69</value>
+  <data name="b_Save.Location" type="System.Drawing.Point, System.Drawing">
+    <value>462, 409</value>
   </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 13</value>
-  </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Host Port:</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;tB_HostPort.Parent" xml:space="preserve">
     <value>gB_Host</value>
   </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;b_Out_Font.Parent" xml:space="preserve">
+    <value>gB_Conversation</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 30</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 13</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Host Name:</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;gB_Host.Name" xml:space="preserve">
     <value>gB_Host</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <metadata name="l_out_mex.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="&gt;&gt;l_out_mex.Name" xml:space="preserve">
-    <value>l_out_mex</value>
-  </data>
-  <data name="&gt;&gt;l_out_mex.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;l_out_mex.Parent" xml:space="preserve">
-    <value>gB_Outgoing</value>
-  </data>
-  <data name="&gt;&gt;l_out_mex.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;b_Mex_Font.Name" xml:space="preserve">
-    <value>b_Mex_Font</value>
-  </data>
-  <data name="&gt;&gt;b_Mex_Font.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;b_Mex_Font.Parent" xml:space="preserve">
-    <value>gB_Outgoing</value>
-  </data>
-  <data name="&gt;&gt;b_Mex_Font.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;b_Mex_Color.Name" xml:space="preserve">
-    <value>b_Mex_Color</value>
-  </data>
-  <data name="&gt;&gt;b_Mex_Color.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;b_Mex_Color.Parent" xml:space="preserve">
-    <value>gB_Outgoing</value>
-  </data>
-  <data name="&gt;&gt;b_Mex_Color.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
-  </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>gB_Outgoing</value>
-  </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="gB_Outgoing.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 235</value>
-  </data>
-  <data name="gB_Outgoing.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 221</value>
-  </data>
-  <data name="gB_Outgoing.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="gB_Outgoing.Text" xml:space="preserve">
-    <value>Outgoing Message</value>
-  </data>
-  <data name="&gt;&gt;gB_Outgoing.Name" xml:space="preserve">
-    <value>gB_Outgoing</value>
-  </data>
-  <data name="&gt;&gt;gB_Outgoing.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gB_Outgoing.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;gB_Outgoing.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <metadata name="l_out_mex.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="l_out_mex.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 13pt</value>
-  </data>
-  <data name="l_out_mex.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 69</value>
-  </data>
-  <data name="l_out_mex.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="l_out_mex.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 123</value>
-  </data>
-  <data name="l_out_mex.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="l_out_mex.Text" xml:space="preserve">
-    <value>Sample 123</value>
-  </data>
-  <data name="l_out_mex.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;l_out_mex.Name" xml:space="preserve">
-    <value>l_out_mex</value>
-  </data>
-  <data name="&gt;&gt;l_out_mex.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;l_out_mex.Parent" xml:space="preserve">
-    <value>gB_Outgoing</value>
-  </data>
-  <data name="&gt;&gt;l_out_mex.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="b_Mex_Font.Location" type="System.Drawing.Point, System.Drawing">
-    <value>147, 31</value>
-  </data>
-  <data name="b_Mex_Font.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="b_Mex_Font.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="b_Mex_Font.Text" xml:space="preserve">
-    <value>Font</value>
-  </data>
-  <data name="&gt;&gt;b_Mex_Font.Name" xml:space="preserve">
-    <value>b_Mex_Font</value>
-  </data>
-  <data name="&gt;&gt;b_Mex_Font.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;b_Mex_Font.Parent" xml:space="preserve">
-    <value>gB_Outgoing</value>
-  </data>
-  <data name="&gt;&gt;b_Mex_Font.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="b_Mex_Color.Location" type="System.Drawing.Point, System.Drawing">
-    <value>91, 31</value>
-  </data>
-  <data name="b_Mex_Color.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 24</value>
-  </data>
-  <data name="b_Mex_Color.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="b_Mex_Color.Text" xml:space="preserve">
-    <value>Color</value>
-  </data>
-  <data name="&gt;&gt;b_Mex_Color.Name" xml:space="preserve">
-    <value>b_Mex_Color</value>
-  </data>
-  <data name="&gt;&gt;b_Mex_Color.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;b_Mex_Color.Parent" xml:space="preserve">
-    <value>gB_Outgoing</value>
-  </data>
-  <data name="&gt;&gt;b_Mex_Color.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 37</value>
-  </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 13</value>
-  </data>
-  <data name="label5.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>Text:</value>
-  </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
-  </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>gB_Outgoing</value>
-  </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="&gt;&gt;b_color_outgoing.Name" xml:space="preserve">
     <value>b_color_outgoing</value>
   </data>
-  <data name="&gt;&gt;b_color_outgoing.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;b_color_outgoing.Parent" xml:space="preserve">
-    <value>gB_Background</value>
-  </data>
-  <data name="&gt;&gt;b_color_outgoing.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;label8.Name" xml:space="preserve">
-    <value>label8</value>
-  </data>
-  <data name="&gt;&gt;label8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
-    <value>gB_Background</value>
-  </data>
-  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;b_color_conv.Name" xml:space="preserve">
-    <value>b_color_conv</value>
-  </data>
-  <data name="&gt;&gt;b_color_conv.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;b_color_conv.Parent" xml:space="preserve">
-    <value>gB_Background</value>
-  </data>
-  <data name="&gt;&gt;b_color_conv.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;label9.Name" xml:space="preserve">
-    <value>label9</value>
-  </data>
-  <data name="&gt;&gt;label9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
-    <value>gB_Background</value>
-  </data>
-  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;gB_Outgoing.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="gB_Background.Location" type="System.Drawing.Point, System.Drawing">
-    <value>237, 235</value>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 30</value>
   </data>
-  <data name="gB_Background.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 220</value>
+  <data name="b_Save.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 31</value>
   </data>
-  <data name="gB_Background.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 13</value>
   </data>
-  <data name="gB_Background.Text" xml:space="preserve">
-    <value>Background</value>
+  <data name="gB_Language.Text" xml:space="preserve">
+    <value>Language</value>
   </data>
-  <data name="&gt;&gt;gB_Background.Name" xml:space="preserve">
-    <value>gB_Background</value>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;gB_Background.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="tB_HostName.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="&gt;&gt;gB_Background.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;gB_Background.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;b_color_conv.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="b_color_outgoing.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="b_color_outgoing.Location" type="System.Drawing.Point, System.Drawing">
-    <value>149, 129</value>
-  </data>
-  <data name="b_color_outgoing.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 24</value>
-  </data>
-  <data name="b_color_outgoing.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="b_color_outgoing.Text" xml:space="preserve">
-    <value>Color</value>
-  </data>
-  <data name="&gt;&gt;b_color_outgoing.Name" xml:space="preserve">
-    <value>b_color_outgoing</value>
-  </data>
-  <data name="&gt;&gt;b_color_outgoing.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;b_color_outgoing.Parent" xml:space="preserve">
-    <value>gB_Background</value>
-  </data>
-  <data name="&gt;&gt;b_color_outgoing.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 135</value>
-  </data>
-  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 13</value>
-  </data>
-  <data name="label8.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="label8.Text" xml:space="preserve">
-    <value>Background outgoing:</value>
-  </data>
-  <data name="&gt;&gt;label8.Name" xml:space="preserve">
-    <value>label8</value>
-  </data>
-  <data name="&gt;&gt;label8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
-    <value>gB_Background</value>
-  </data>
-  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="b_color_conv.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="b_color_conv.Location" type="System.Drawing.Point, System.Drawing">
     <value>149, 62</value>
-  </data>
-  <data name="b_color_conv.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 24</value>
-  </data>
-  <data name="b_color_conv.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="b_color_conv.Text" xml:space="preserve">
-    <value>Color</value>
-  </data>
-  <data name="&gt;&gt;b_color_conv.Name" xml:space="preserve">
-    <value>b_color_conv</value>
-  </data>
-  <data name="&gt;&gt;b_color_conv.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;b_color_conv.Parent" xml:space="preserve">
-    <value>gB_Background</value>
-  </data>
-  <data name="&gt;&gt;b_color_conv.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 68</value>
-  </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 13</value>
-  </data>
-  <data name="label9.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="label9.Text" xml:space="preserve">
-    <value>Background conversation:</value>
-  </data>
-  <data name="&gt;&gt;label9.Name" xml:space="preserve">
-    <value>label9</value>
-  </data>
-  <data name="&gt;&gt;label9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
-    <value>gB_Background</value>
-  </data>
-  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="b_Save.Location" type="System.Drawing.Point, System.Drawing">
-    <value>462, 409</value>
-  </data>
-  <data name="b_Save.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 31</value>
-  </data>
-  <data name="b_Save.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="b_Save.Text" xml:space="preserve">
-    <value>Save</value>
-  </data>
-  <data name="&gt;&gt;b_Save.Name" xml:space="preserve">
-    <value>b_Save</value>
-  </data>
-  <data name="&gt;&gt;b_Save.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;b_Save.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="&gt;&gt;b_Save.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="b_Cancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>590, 409</value>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;l_input.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Background conversation:</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>gB_Conversation</value>
+  </data>
+  <data name="&gt;&gt;gB_Conversation.Name" xml:space="preserve">
+    <value>gB_Conversation</value>
+  </data>
+  <data name="&gt;&gt;b_Mex_Color.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
   </data>
   <data name="b_Cancel.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 31</value>
   </data>
-  <data name="b_Cancel.TabIndex" type="System.Int32, mscorlib">
+  <data name="cB_Language.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 40</value>
+  </data>
+  <data name="l_out_mex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 69</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 135</value>
+  </data>
+  <data name="l_output.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 13pt</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 37</value>
+  </data>
+  <data name="gB_Host.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 110</value>
+  </data>
+  <data name="&gt;&gt;l_input.Parent" xml:space="preserve">
+    <value>gB_Conversation</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>gB_Host</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;gB_Language.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tB_HostPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 68</value>
+  </data>
+  <data name="&gt;&gt;l_out_mex.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="b_Out_Font.Location" type="System.Drawing.Point, System.Drawing">
+    <value>345, 25</value>
+  </data>
+  <data name="b_Save.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="b_Out_Color.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="&gt;&gt;b_Mex_Color.Name" xml:space="preserve">
+    <value>b_Mex_Color</value>
+  </data>
+  <data name="&gt;&gt;cB_Language.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;b_color_conv.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 220</value>
+  </data>
+  <data name="b_color_conv.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="b_In_Color.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="l_input.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="l_out_mex.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 13pt</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 13</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="l_out_mex.Text" xml:space="preserve">
+    <value>Sample 123</value>
+  </data>
+  <data name="b_Out_Font.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 24</value>
+  </data>
+  <data name="b_In_Font.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 31</value>
+  </data>
+  <data name="&gt;&gt;b_In_Color.ZOrder" xml:space="preserve">
     <value>6</value>
+  </data>
+  <data name="b_In_Font.Text" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="&gt;&gt;b_Out_Color.Parent" xml:space="preserve">
+    <value>gB_Conversation</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>gB_Background</value>
+  </data>
+  <data name="l_output.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;b_In_Color.Name" xml:space="preserve">
+    <value>b_In_Color</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>429, 224</value>
+  </data>
+  <data name="cB_Language.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 21</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 31</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="b_In_Color.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tB_HostName.Parent" xml:space="preserve">
+    <value>gB_Host</value>
+  </data>
+  <data name="&gt;&gt;l_out_mex.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="l_output.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="b_Out_Color.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 25</value>
+  </data>
+  <data name="&gt;&gt;b_In_Font.Name" xml:space="preserve">
+    <value>b_In_Font</value>
+  </data>
+  <data name="&gt;&gt;gB_Conversation.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="b_color_conv.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="b_Save.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;b_color_outgoing.Parent" xml:space="preserve">
+    <value>gB_Background</value>
+  </data>
+  <data name="&gt;&gt;l_out_mex.Name" xml:space="preserve">
+    <value>l_out_mex</value>
+  </data>
+  <data name="b_Out_Color.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;b_In_Font.Parent" xml:space="preserve">
+    <value>gB_Conversation</value>
+  </data>
+  <data name="b_color_outgoing.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="&gt;&gt;gB_Background.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>gB_Background</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>gB_Host</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Host Port:</value>
+  </data>
+  <data name="gB_Language.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 92</value>
+  </data>
+  <data name="&gt;&gt;l_output.Name" xml:space="preserve">
+    <value>l_output</value>
+  </data>
+  <data name="cB_Language.Items" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="b_Cancel.Text" xml:space="preserve">
     <value>Cancel</value>
   </data>
+  <data name="b_In_Color.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 25</value>
+  </data>
+  <data name="&gt;&gt;gB_Host.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="b_Mex_Font.Text" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="l_input.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 13pt</value>
+  </data>
+  <data name="b_Cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>590, 409</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;b_In_Font.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;b_Save.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="l_input.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;gB_Host.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;gB_Background.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gB_Outgoing.Name" xml:space="preserve">
+    <value>gB_Outgoing</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;l_input.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Host Name:</value>
+  </data>
+  <data name="&gt;&gt;b_In_Color.Parent" xml:space="preserve">
+    <value>gB_Conversation</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 68</value>
+  </data>
+  <data name="cB_Language.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gB_Language.Name" xml:space="preserve">
+    <value>gB_Language</value>
+  </data>
+  <data name="b_color_outgoing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 129</value>
+  </data>
+  <data name="&gt;&gt;tB_HostName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cB_Language.Parent" xml:space="preserve">
+    <value>gB_Language</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="l_input.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="b_Out_Font.Text" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="&gt;&gt;b_Cancel.Name" xml:space="preserve">
     <value>b_Cancel</value>
   </data>
-  <data name="&gt;&gt;b_Cancel.Type" xml:space="preserve">
+  <data name="gB_Language.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;b_Out_Font.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;b_Cancel.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="b_Out_Color.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 24</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 69</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>741, 468</value>
+  </data>
+  <data name="gB_Background.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="l_output.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 57</value>
+  </data>
+  <data name="gB_Outgoing.Text" xml:space="preserve">
+    <value>Outgoing Message</value>
+  </data>
+  <data name="&gt;&gt;l_output.Parent" xml:space="preserve">
+    <value>gB_Conversation</value>
+  </data>
+  <data name="gB_Background.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 220</value>
+  </data>
+  <data name="gB_Outgoing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 235</value>
+  </data>
+  <data name="tB_HostPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 20</value>
+  </data>
+  <data name="b_color_conv.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 24</value>
+  </data>
+  <data name="&gt;&gt;b_Out_Color.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="b_Cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="b_color_outgoing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 24</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="l_input.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 57</value>
+  </data>
+  <data name="&gt;&gt;gB_Background.Name" xml:space="preserve">
+    <value>gB_Background</value>
+  </data>
+  <data name="&gt;&gt;tB_HostName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="gB_Host.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;b_Mex_Font.Name" xml:space="preserve">
+    <value>b_Mex_Font</value>
+  </data>
+  <data name="gB_Background.Location" type="System.Drawing.Point, System.Drawing">
+    <value>237, 235</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="b_color_conv.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SettingsForm</value>
   </data>
   <data name="&gt;&gt;b_Cancel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 13</value>
+  </data>
+  <data name="l_input.Text" xml:space="preserve">
+    <value>Sample 123</value>
+  </data>
+  <data name="&gt;&gt;b_Cancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;l_output.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cB_Language.Items1" xml:space="preserve">
+    <value>Italiano</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Conversation messages</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tB_HostName.Name" xml:space="preserve">
+    <value>tB_HostName</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Outgoing</value>
+  </data>
+  <data name="&gt;&gt;b_Save.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;b_color_outgoing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="cB_Language.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="l_output.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="l_input.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>741, 468</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>SettingsForm</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
+  <metadata name="l_out_mex.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

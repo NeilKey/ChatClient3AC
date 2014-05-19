@@ -26,5 +26,32 @@
     <Setting Name="languageIndex" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">0</Value>
     </Setting>
+    <Setting Name="colorInput" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="colorOutput" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="colorMex" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="fontColorIn" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="fontColorOut" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="fontColorMex" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="fontIn" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Arial, 13pt</Value>
+    </Setting>
+    <Setting Name="fontOut" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Arial, 13pt</Value>
+    </Setting>
+    <Setting Name="fontMex" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Arial, 13pt</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

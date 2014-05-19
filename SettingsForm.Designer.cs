@@ -67,6 +67,7 @@
             // 
             // gB_Conversation
             // 
+            resources.ApplyResources(this.gB_Conversation, "gB_Conversation");
             this.gB_Conversation.Controls.Add(this.l_output);
             this.gB_Conversation.Controls.Add(this.l_input);
             this.gB_Conversation.Controls.Add(this.b_Out_Font);
@@ -76,20 +77,19 @@
             this.gB_Conversation.Controls.Add(this.b_In_Color);
             this.gB_Conversation.Controls.Add(this.label3);
             this.gB_Conversation.Controls.Add(this.groupBox1);
-            resources.ApplyResources(this.gB_Conversation, "gB_Conversation");
             this.gB_Conversation.Name = "gB_Conversation";
             this.gB_Conversation.TabStop = false;
             // 
             // l_output
             // 
-            this.l_output.BackColor = System.Drawing.SystemColors.HighlightText;
             resources.ApplyResources(this.l_output, "l_output");
+            this.l_output.BackColor = System.Drawing.SystemColors.HighlightText;
             this.l_output.Name = "l_output";
             // 
             // l_input
             // 
-            this.l_input.BackColor = System.Drawing.SystemColors.HighlightText;
             resources.ApplyResources(this.l_input, "l_input");
+            this.l_input.BackColor = System.Drawing.SystemColors.HighlightText;
             this.l_input.Name = "l_input";
             // 
             // b_Out_Font
@@ -138,30 +138,30 @@
             // 
             // gB_Language
             // 
-            this.gB_Language.Controls.Add(this.cB_Language);
             resources.ApplyResources(this.gB_Language, "gB_Language");
+            this.gB_Language.Controls.Add(this.cB_Language);
             this.gB_Language.Name = "gB_Language";
             this.gB_Language.TabStop = false;
             // 
             // cB_Language
             // 
+            resources.ApplyResources(this.cB_Language, "cB_Language");
             this.cB_Language.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cB_Language.FormattingEnabled = true;
             this.cB_Language.Items.AddRange(new object[] {
             resources.GetString("cB_Language.Items"),
             resources.GetString("cB_Language.Items1")});
-            resources.ApplyResources(this.cB_Language, "cB_Language");
             this.cB_Language.Name = "cB_Language";
             this.cB_Language.Sorted = true;
             this.cB_Language.SelectedIndexChanged += new System.EventHandler(this.cB_Language_SelectedIndexChanged);
             // 
             // gB_Host
             // 
+            resources.ApplyResources(this.gB_Host, "gB_Host");
             this.gB_Host.Controls.Add(this.tB_HostPort);
             this.gB_Host.Controls.Add(this.tB_HostName);
             this.gB_Host.Controls.Add(this.label2);
             this.gB_Host.Controls.Add(this.label1);
-            resources.ApplyResources(this.gB_Host, "gB_Host");
             this.gB_Host.Name = "gB_Host";
             this.gB_Host.TabStop = false;
             // 
@@ -187,18 +187,18 @@
             // 
             // gB_Outgoing
             // 
+            resources.ApplyResources(this.gB_Outgoing, "gB_Outgoing");
             this.gB_Outgoing.Controls.Add(this.l_out_mex);
             this.gB_Outgoing.Controls.Add(this.b_Mex_Font);
             this.gB_Outgoing.Controls.Add(this.b_Mex_Color);
             this.gB_Outgoing.Controls.Add(this.label5);
-            resources.ApplyResources(this.gB_Outgoing, "gB_Outgoing");
             this.gB_Outgoing.Name = "gB_Outgoing";
             this.gB_Outgoing.TabStop = false;
             // 
             // l_out_mex
             // 
-            this.l_out_mex.BackColor = System.Drawing.SystemColors.HighlightText;
             resources.ApplyResources(this.l_out_mex, "l_out_mex");
+            this.l_out_mex.BackColor = System.Drawing.SystemColors.HighlightText;
             this.l_out_mex.Name = "l_out_mex";
             // 
             // b_Mex_Font
@@ -222,11 +222,11 @@
             // 
             // gB_Background
             // 
+            resources.ApplyResources(this.gB_Background, "gB_Background");
             this.gB_Background.Controls.Add(this.b_color_outgoing);
             this.gB_Background.Controls.Add(this.label8);
             this.gB_Background.Controls.Add(this.b_color_conv);
             this.gB_Background.Controls.Add(this.label9);
-            resources.ApplyResources(this.gB_Background, "gB_Background");
             this.gB_Background.Name = "gB_Background";
             this.gB_Background.TabStop = false;
             // 
@@ -235,7 +235,7 @@
             resources.ApplyResources(this.b_color_outgoing, "b_color_outgoing");
             this.b_color_outgoing.Name = "b_color_outgoing";
             this.b_color_outgoing.UseVisualStyleBackColor = true;
-            this.b_color_outgoing.Click += new System.EventHandler(this.button2_Click);
+            this.b_color_outgoing.Click += new System.EventHandler(this.bgOut_Click);
             // 
             // label8
             // 
@@ -247,7 +247,7 @@
             resources.ApplyResources(this.b_color_conv, "b_color_conv");
             this.b_color_conv.Name = "b_color_conv";
             this.b_color_conv.UseVisualStyleBackColor = true;
-            this.b_color_conv.Click += new System.EventHandler(this.button3_Click);
+            this.b_color_conv.Click += new System.EventHandler(this.bgConv_Click);
             // 
             // label9
             // 

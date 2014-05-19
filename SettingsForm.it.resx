@@ -136,6 +136,10 @@
   <data name="label4.Text" xml:space="preserve">
     <value>Spediti:</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="b_In_Font.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="b_In_Font.Text" xml:space="preserve">
     <value>Fonte</value>
   </data>
