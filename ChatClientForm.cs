@@ -20,8 +20,15 @@ namespace ChatClient3AC
                 emoticonBox.Close();
             };
 
-            emoticonBox.Location = new Point(sendButton.Location.X, sendButton.Location.Y);
-            emoticonBox.Show();
+            Point point = this.emoBox.Parent.PointToScreen(this.emoBox.Location);
+            emoticonBox.Location = new Point(point.X, point.Y - emoticonBox.Size.Height);
+            
+            emoticonBox.Show(this);
+        }
+
+        private void EmoticonSelected(string text)
+        {
+            throw new NotImplementedException();
         }
 
         private void settingsToolStripMenuItem_Click(object sender, EventArgs e)
