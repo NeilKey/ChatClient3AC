@@ -16,8 +16,15 @@ namespace ChatClient3AC
         public SettingsForm()
         {
             InitializeComponent();
-            culture = CultureInfo.CurrentCulture.Name;
-            cB_Language.SelectedIndex = 0;
+            cB_Language.SelectedIndex = Properties.Settings.Default.languageIndex;
+            foreach (Control c in this.Controls)
+            {
+                ComponentResourceManager resources = new ComponentResourceManager(typeof(SettingsForm));
+                resources.ApplyResources(c, c.Name, new CultureInfo(Properties.Settings.Default.language));
+            }
+            culture = Properties.Settings.Default.language;
+            tB_HostName.Text = Properties.Settings.Default.hostName;
+            tB_HostPort.Text = ""+Properties.Settings.Default.hostPort;
         }
 
 
@@ -161,6 +168,8 @@ namespace ChatClient3AC
                 {
                     ComponentResourceManager resources = new ComponentResourceManager(typeof(SettingsForm));
                     resources.ApplyResources(c, c.Name, new CultureInfo("en"));
+                    Properties.Settings.Default.language = CultureInfo.CurrentCulture.Name;
+                    Properties.Settings.Default.languageIndex = 0;
                 }
                 culture_temp = CultureInfo.CurrentCulture.Name;
             }
@@ -170,6 +179,8 @@ namespace ChatClient3AC
                 {
                     ComponentResourceManager resources = new ComponentResourceManager(typeof(SettingsForm));
                     resources.ApplyResources(c, c.Name, new CultureInfo("it"));
+                    Properties.Settings.Default.language = CultureInfo.CurrentCulture.Name;
+                    Properties.Settings.Default.languageIndex = 0;
                 }
                 culture_temp = CultureInfo.CurrentCulture.Name;
             }
@@ -216,23 +227,18 @@ namespace ChatClient3AC
             }
 
             hostName = tB_HostName.Text;
+            Properties.Settings.Default.hostName = hostName;
+
             try
             {
                 hostPort = int.Parse(tB_HostPort.Text);
+                Properties.Settings.Default.hostPort = hostPort;
             }
             catch (Exception) { }
 
             Close();
         }
 
-        protected String getHostName()
-        {
-            return hostName;
-        }
 
-        protected int getHostPort()
-        {
-            return hostPort;
-        }
     }
 }
